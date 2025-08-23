@@ -1,20 +1,62 @@
 # Site settings
-title: Nivest India Blog
+title: Nivest India - Stock Research Reports
 email: your-email@example.com
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Comprehensive stock research reports and investment analysis for Indian markets. 
+  Get detailed financial analysis, valuations, and investment recommendations for 
+  Indian stocks across various sectors.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nivest-india.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  nivest-india
+twitter_username: nivest_india
+github_username: nivest-india
 
 # Build settings
 markdown: kramdown
+# Alternative: markdown: commonmarker (if kramdown doesn't work)
+# Alternative: markdown: redcarpet (if kramdown doesn't work)
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+  math_engine: mathjax
+  table:
+    alignment: left
+    header_separator: true
+    column_separator: true
+    row_separator: true
+  gfm_quirks: paragraph_end
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: ["lsquo","rsquo","ldquo","rdquo"]
+  enable_coderay: false
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+# Pagination settings
+paginate: 10
+paginate_path: "/page/:num/"
+
+# Collections for research reports
+collections:
+  research:
+    output: true
+    permalink: /research/:title/
+
+# Defaults for research reports
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "research"
+      show_related_posts: true
 
 # Exclude from processing.
 exclude:

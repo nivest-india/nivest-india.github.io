@@ -5,7 +5,12 @@ gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-paginate", "~> 1.1"
 end
+
+# Alternative Markdown processors for testing
+gem "redcarpet", "~> 3.5"
+gem "commonmarker", "~> 0.4"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
