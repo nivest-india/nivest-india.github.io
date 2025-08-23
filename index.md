@@ -11,21 +11,37 @@ description: "Comprehensive stock research reports and investment analysis for I
 
 ## What We Offer
 
-- **Comprehensive Analysis**: Deep-dive into financial metrics, sector trends, and company fundamentals
-- **Investment Recommendations**: Clear BUY/HOLD/SELL ratings with target prices and risk assessments
-- **Sector Coverage**: Analysis across all major Indian market sectors
-- **Regular Updates**: Quarterly updates and new research reports
-- **Risk Management**: Detailed risk analysis and monitoring parameters
+**AI-Powered Stock Analysis**: Advanced artificial intelligence system that generates comprehensive financial research reports using structured data analysis and machine learning models
+
+**Multi-Pillar Evaluation Framework**: Systematic analysis across multiple dimensions:
+- **Sectoral Analysis** - Industry dynamics and competitive positioning
+- **Financial Strength** - Balance sheet health and cash flow analysis
+- **Valuations** - Multiple analysis, peer comparison, and intrinsic value assessment
+- **Growth Potential** - Revenue growth prospects and capital efficiency metrics
+- **Corporate Governance** - Management quality and transparency evaluation
+- **Research Reports** - Broker consensus and analyst sentiment analysis
+- **Technical Analysis & Market Sentiment** - Price trends and market positioning
+- **Shareholding Pattern Analysis** - Institutional participation and investor quality
+
+**Investment Recommendations**: Clear BUY/HOLD/SELL ratings with probability-weighted target prices derived from comprehensive scenario analysis (Bull/Base/Bear cases)
+
+**Sector Coverage**: Analysis across all major Indian market sectors with real-time data integration
 
 ## Research Methodology
 
-Our research follows a structured approach:
-1. **Sector Analysis** - Industry trends, competitive landscape, and growth drivers
-2. **Financial Strength** - Balance sheet analysis, cash flow, and debt metrics
-3. **Valuations** - Multiple analysis, peer comparison, and intrinsic value
-4. **Growth Potential** - Revenue growth, ROE, and expansion opportunities
-5. **Corporate Governance** - Management quality and transparency
-6. **Investment Recommendation** - Clear action items with risk-reward analysis
+Our AI system follows a structured, data-driven approach:
+
+**Data Aggregation** - Real-time collection from multiple financial data sources and company filings
+
+**Multi-Pillar Scoring** - Systematic evaluation across 8 key financial and qualitative dimensions
+
+**Scenario Modeling** - Probability-weighted analysis with specific bull/base/bear case projections
+
+**Peer Benchmarking** - Relative valuation and performance comparison within sector cohorts
+
+**Risk Assessment** - Comprehensive identification of sector, operational, and financial risks
+
+**Investment Synthesis** - Clear actionable recommendations with entry/exit strategies and position sizing guidance
 
 ## Stock Research Reports
 

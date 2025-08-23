@@ -43,12 +43,6 @@ plugins:
 paginate: 10
 paginate_path: "/page/:num/"
 
-# Collections for research reports
-collections:
-  research:
-    output: true
-    permalink: /research/:title/
-
 # Defaults for research reports
 defaults:
   - scope:
