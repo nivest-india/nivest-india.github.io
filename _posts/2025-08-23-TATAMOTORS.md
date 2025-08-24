@@ -338,8 +338,6 @@ Research notes, presentations, concall transcripts and filings used for this ana
 
 ---
 
-END OF ANALYSIS
+## Disclaimer
 
-Notes & Disclaimers:
-- This is an evidence‑based, consolidated analysis using company filings, concall transcripts, financials, charts and broker reports. Forward‑looking statements involve risk; monitor tariff/FTA developments, demerger progress, and the Iveco transaction closely.
-- Figures quoted are consolidated where available. Always cross‑check prior to trading.
+**IMPORTANT DISCLAIMER**: This analysis is for informational and educational purposes only and should not be considered as personalized investment advice. Stock investments carry inherent risks, including the potential for significant loss of capital. Past performance does not guarantee future results. Investors should conduct their own research, consider their individual financial circumstances, risk tolerance, and investment objectives before making any investment decisions. The author and publisher disclaim any liability for investment decisions made based on this analysis. Please consult with a qualified financial advisor for personalized investment advice.

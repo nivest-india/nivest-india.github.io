@@ -331,9 +331,6 @@ Most Likely Scenario: Base Case — Evidence: Company’s FY25 performance (net�
 
 (If you want, I can attach a short one‑page timeline of upcoming project milestones (SEZ leasing dates, scheduled handovers, expected rental start dates) with exact quarter‑by‑quarter cash flow implications.)
 
-**END OF ANALYSIS**
+## Disclaimer
 
-Important reminder/caveats:
-- This report uses consolidated FY25 financials and company disclosures (presentations + concalls). Market prices and multiples are current as of 2025‑08‑23.
-- Real estate cash flows and earnings recognition are timing‑sensitive (project completions, handovers, sale deed registrations). Monitor booking/collection metrics and SEZ lease confirmations closely.
-- Please consider portfolio diversification and position sizing per risk tolerance. This is analysis, not personal financial advice.
+**IMPORTANT DISCLAIMER**: This analysis is for informational and educational purposes only and should not be considered as personalized investment advice. Stock investments carry inherent risks, including the potential for significant loss of capital. Past performance does not guarantee future results. Investors should conduct their own research, consider their individual financial circumstances, risk tolerance, and investment objectives before making any investment decisions. The author and publisher disclaim any liability for investment decisions made based on this analysis. Please consult with a qualified financial advisor for personalized investment advice.

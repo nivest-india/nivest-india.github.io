@@ -282,13 +282,6 @@ Most Likely Scenario: Base Case — Evidence: consistent management guidance tow
 - Extracted key ratios (ROE/ROCE/P/E/PBV/Int coverage) and price charts (50/200 DMA + volume).
 - Shareholding pattern details (quarterly/yearly breakdowns, promoter donations, ESOP issuance history).
 
-END OF ANALYSIS
+## Disclaimer
 
-Important notes / Risks & Monitoring checklist:
-- Monitor quarterly treasury PAT/OCI and mark-to-market swings — large negative treasury surprises materially affect consolidated EPS.
-- Watch regulatory steps affecting derivatives and broking (F&O rule changes) and any RBI/SEBI policy updates for NBFC/HFC.
-- Track AUM & net flows for AMC, PWM (SIP flows, net inflows), and the fundraising progress of large PE/RE funds (IBEF V) — successful closes materially support upside.
-- Revisit target if consolidated PAT trend deviates >10% from assumptions, or if leverage materially increases (Debt/Equity rising above ~1.8x) or credit metrics worsen.
-
-Disclosure / Disclaimer:
-- This report uses consolidated company disclosures and third-party broker reports gathered via data tools. Past performance is not a guarantee of future results. Investors should combine this analysis with their own risk tolerance and time horizon.
+**IMPORTANT DISCLAIMER**: This analysis is for informational and educational purposes only and should not be considered as personalized investment advice. Stock investments carry inherent risks, including the potential for significant loss of capital. Past performance does not guarantee future results. Investors should conduct their own research, consider their individual financial circumstances, risk tolerance, and investment objectives before making any investment decisions. The author and publisher disclaim any liability for investment decisions made based on this analysis. Please consult with a qualified financial advisor for personalized investment advice.

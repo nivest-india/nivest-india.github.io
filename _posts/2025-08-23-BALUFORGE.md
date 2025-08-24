@@ -292,16 +292,6 @@ Most Likely Scenario: Base Case (60% probability) — Evidence: management guida
 
 (If you want, I can attach a consolidated PDF of the primary investor presentations and the CRISIL rating summaries I used.)
 
-## Final Risk Checklist (monitor these closely)
-- Timely commissioning of Belgaum greenfield forging & machining campus (72k T capacity target).  
-- Working‑capital behaviour (debtor days, receivables recovery) — watch for slippage.  
-- Raw‑material price trends (aluminium/titanium/steel alloys) and pass‑through to OEMs.  
-- Any incremental equity issuance or material related‑party transactions.  
-- Defence/aerospace vendor approvals and order conversions.
+## Disclaimer
 
-## Short Actionable Summary (for active investors)
-- If you are a growth investor comfortable with execution risk and dilute near‑term earnings for long‑term scale: initiate a staggered BUY (accumulate between ₹560–680).  
-- If you prefer lower risk: wait for visible commissioning milestones and positive FCF conversion (then consider increasing position).  
-- Set an initial stop of ~₹520 (or 15% below average entry), and re‑asses after each major commissioning milestone or quarterly result.
-
-Disclosure / Note: This analysis uses consolidated FY24/FY25 financials, investor presentations and regulatory filings. Projections are model‑based and rely on management guidance and public disclosures. Past performance is not a guarantee of future returns. Always cross‑check before acting and align position sizing with your risk tolerance.
+**IMPORTANT DISCLAIMER**: This analysis is for informational and educational purposes only and should not be considered as personalized investment advice. Stock investments carry inherent risks, including the potential for significant loss of capital. Past performance does not guarantee future results. Investors should conduct their own research, consider their individual financial circumstances, risk tolerance, and investment objectives before making any investment decisions. The author and publisher disclaim any liability for investment decisions made based on this analysis. Please consult with a qualified financial advisor for personalized investment advice.

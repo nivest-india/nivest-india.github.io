@@ -305,6 +305,6 @@ Notes: Recent broker research fetch partially failed via automated tool; therefo
 
 ---
 
-END OF ANALYSIS
+## Disclaimer
 
-Disclaimers: This is an evidence‑based, data‑driven analysis for informational purposes only and not an investment mandate. Market prices can be volatile; past performance is not indicative of future returns. Investors should cross‑check live market data and do their own risk assessment (tax, allocation, portfolio suitability) before acting.
+**IMPORTANT DISCLAIMER**: This analysis is for informational and educational purposes only and should not be considered as personalized investment advice. Stock investments carry inherent risks, including the potential for significant loss of capital. Past performance does not guarantee future results. Investors should conduct their own research, consider their individual financial circumstances, risk tolerance, and investment objectives before making any investment decisions. The author and publisher disclaim any liability for investment decisions made based on this analysis. Please consult with a qualified financial advisor for personalized investment advice.

@@ -339,8 +339,6 @@ Most Likely Scenario: **Base Case** (55% probability) — evidence: management g
 
 ---
 
-END OF ANALYSIS
+## Disclaimer
 
-Important final notes / risk disclaimer:
-- This report uses standalone (consolidated = False) company disclosures and third‑party broker reports as cited; numbers are presented in Indian denominations (₹ Crores) consistent with source filings.  
-- Forward‑looking statements (targets, EPS projections, probabilities) are estimates and not guarantees — they depend on macro conditions, management execution, and regulatory outcomes. Investors should use the scenario outputs to size positions and manage risk, and re‑assess on material new data (quarterly results, RBI decisions, major ARC / provisioning events).
+**IMPORTANT DISCLAIMER**: This analysis is for informational and educational purposes only and should not be considered as personalized investment advice. Stock investments carry inherent risks, including the potential for significant loss of capital. Past performance does not guarantee future results. Investors should conduct their own research, consider their individual financial circumstances, risk tolerance, and investment objectives before making any investment decisions. The author and publisher disclaim any liability for investment decisions made based on this analysis. Please consult with a qualified financial advisor for personalized investment advice.

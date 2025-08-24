@@ -284,11 +284,11 @@ Most Likely Scenario: Base Case — Evidence: management guidance (15–16% adva
 
 ## Documents Analyzed
 **Research Reports & PDFs Analyzed:**
-- Motilal Oswal — Equitas Small Finance Bank Research Report (31 Jan 2025) — https://images.moneycontrol.com/static-mcnews/2025/02/20250203162607_Equitas-Small-Finance-Bank_03022025_Motilal-Oswal.pdf
-- Motilal Oswal — Equitas Small Finance Bank Research Report (09 Aug 2025) — https://images.moneycontrol.com/static-mcnews/2025/08/20250811075633_Equitas-Small-Finance-Bank_11082025_Motilal-Oswal.pdf
-- Emkay Global Financial Services — Equitas Result Update (09 Aug 2025) — https://images.moneycontrol.com/static-mcnews/2025/08/20250812062326_Equitas-Small-Finance-Bank-12082025-emkay.pdf
-- ICICI Securities — Equitas Research Report (10 Aug 2025) — https://images.moneycontrol.com/static-mcnews/2025/08/20250814052716_Equitas-Small-Finance-Bank_13082025_ICICI-Securities.pdf
-- Motilal Oswal — Equitas (01 May 2025) — https://images.moneycontrol.com/static-mcnews/2025/05/20250506093345_Equitas-Small-Finance-Bank-02052025-moti.pdf
+- Motilal Oswal — Equitas Small Finance Bank Research Report (31 Jan 2025) 
+- Motilal Oswal — Equitas Small Finance Bank Research Report (09 Aug 2025) 
+- Emkay Global Financial Services — Equitas Result Update (09 Aug 2025) 
+- ICICI Securities — Equitas Research Report (10 Aug 2025) 
+- Motilal Oswal — Equitas (01 May 2025) 
 
 **Investor Presentations / Company PDFs Analyzed:**
 - Q1 FY26 Investor Presentation (Aug 2025) — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b9c73f90-7b01-4307-9f97-93ab2799d573.pdf
@@ -297,4 +297,6 @@ Most Likely Scenario: Base Case — Evidence: management guidance (15–16% adva
 - Q2 FY25 Investor Presentation (Nov 2024) — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=16129dee-9c29-49f7-8484-71a7e43c652b.pdf
 - Q1 FY25 Investor Presentation (Jul 2024) — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e330d8ae-bee7-4c29-84b7-2c0b4d2cb278.pdf
 
-END OF ANALYSIS
+## Disclaimer
+
+**IMPORTANT DISCLAIMER**: This analysis is for informational and educational purposes only and should not be considered as personalized investment advice. Stock investments carry inherent risks, including the potential for significant loss of capital. Past performance does not guarantee future results. Investors should conduct their own research, consider their individual financial circumstances, risk tolerance, and investment objectives before making any investment decisions. The author and publisher disclaim any liability for investment decisions made based on this analysis. Please consult with a qualified financial advisor for personalized investment advice.

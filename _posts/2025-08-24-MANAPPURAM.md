@@ -287,11 +287,13 @@ Most Likely Scenario: Base Case — Evidence: consistent management guidance for
 - Manappuram Finance Ltd – Q4 & FY2025 Investor Presentations — https://www.manappuram.com/sites/default/files/2025-05/MFL%20IR%20Presentation%20Q4FY2025.V1-1.pdf and https://www.manappuram.com/sites/default/files/2025-05/MFL%20IR%20Presentation%20Q4FY2025.V1-2.pdf  
 - Q3 FY25 Investor Presentation — https://www.manappuram.com/sites/default/files/2025-02/MFL%20IR%20Presentation%20Q3FY2025.pdf  
 - BSE corporate announcement (CCI approval + preferential issue/open offer) — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d34e708-22be-4bf3-ab21-189be8fb7ece.pdf  
-- Motilal Oswal – Manappuram Finance Research (09 Jan 2025) — https://images.moneycontrol.com/static-mcnews/2025/01/20250109072844_Manappuram-Finance-09012025-moti.pdf  
-- Motilal Oswal – Manappuram Finance Research (21 Mar 2025) — https://images.moneycontrol.com/static-mcnews/2025/03/20250321053610_Manappuram-Finance-21032025-moti.pdf  
-- ICICI Securities – Results Update / Research (11 Aug 2025) — https://images.moneycontrol.com/static-mcnews/2025/08/20250814074933_Manappuram-Finance_13082025_ICICI-Securities.pdf  
-- Motilal Oswal – Research Note (10 Aug 2025) — https://images.moneycontrol.com/static-mcnews/2025/08/20250812090231_Manappuram-Finance_11082025_Motilal-Oswal.pdf  
+- Motilal Oswal – Manappuram Finance Research (09 Jan 2025) 
+- Motilal Oswal – Manappuram Finance Research (21 Mar 2025)
+- ICICI Securities – Results Update / Research (11 Aug 2025)  
+- Motilal Oswal – Research Note (10 Aug 2025) 
 - Company annual report FY2025 (consolidated) — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d69daba-3907-4f06-bc75-adaf69fdeb0b.pdf  
 - Concall transcripts & notes (Q1 FY26, Q4 FY25, Q3 FY25, Q2 FY25) — links available in company presentations and corporate announcements (referenced above).  
 
-END OF ANALYSIS
+## Disclaimer
+
+**IMPORTANT DISCLAIMER**: This analysis is for informational and educational purposes only and should not be considered as personalized investment advice. Stock investments carry inherent risks, including the potential for significant loss of capital. Past performance does not guarantee future results. Investors should conduct their own research, consider their individual financial circumstances, risk tolerance, and investment objectives before making any investment decisions. The author and publisher disclaim any liability for investment decisions made based on this analysis. Please consult with a qualified financial advisor for personalized investment advice.
