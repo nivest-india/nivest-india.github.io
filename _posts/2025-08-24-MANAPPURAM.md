@@ -1,7 +1,7 @@
 ---
 layout: research
 title: "Manappuram Finance (MANAPPURAM) - Comprehensive Stock Research Report"
-date: 2025-08-23
+date: 2025-08-24
 permalink: /manappuram/20250823/
 ticker: "MANAPPURAM"
 sector: "NBFC / Financial Services"
@@ -19,7 +19,7 @@ target_price: "₹320 (12 months)"
 | **Sector** | NBFC / Financial Services |
 | **Current Price** | ₹267 |
 | **Market Cap** | ₹22,579 Cr |
-| **Analysis Date** | 2025-08-23 |
+| **Analysis Date** | 2025-08-24 |
 
 ### Industry Overview
 
