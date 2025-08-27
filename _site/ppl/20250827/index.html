@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakash Pipes Ltd (PPL) - Comprehensive Stock Research Report - Nivest India - Stock Research Reports</title>
+    <meta name="description" content="Prakash Pipes Ltd (PPL) - Comprehensive Stock Research Report - Stock Research Report">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+    <link rel="manifest" href="/assets/images/site.webmanifest">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .research-header {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .stock-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .info-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #007bff;
+        }
+        .recommendation {
+            font-weight: bold;
+            padding: 5px 15px;
+            border-radius: 20px;
+            display: inline-block;
+        }
+        .recommendation.buy { background: #d4edda; color: #155724; }
+        .recommendation.strong-buy { background: #c3e6cb; color: #155724; }
+        .recommendation.hold { background: #fff3cd; color: #856404; }
+        .recommendation.sell { background: #f8d7da; color: #721c24; }
+        .content {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .content h1, .content h2, .content h3 {
+            color: #2c3e50;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+        }
+        /* Table-specific styling - only applies to actual HTML table elements */
+        .content table {
+            width: 100% !important;
+            border-collapse: collapse !important;
+            margin: 20px 0 !important;
+            border: 1px solid #ddd !important;
+            background: white !important;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+            font-size: 14px !important;
+            line-height: 1.4 !important;
+        }
+        .content table th, .content table td {
+            border: 1px solid #ddd !important;
+            padding: 12px !important;
+            text-align: left !important;
+            vertical-align: top !important;
+            word-wrap: break-word !important;
+            max-width: 300px !important;
+        }
+        .content table th {
+            background-color: #f8f9fa !important;
+            font-weight: 600 !important;
+            color: #2c3e50 !important;
+            border-bottom: 2px solid #dee2e6 !important;
+        }
+        .content table td {
+            background-color: white !important;
+        }
+        .content table tr:nth-child(even) td {
+            background-color: #f8f9fa !important;
+        }
+        .content table tr:hover td {
+            background-color: #e9ecef !important;
+        }
+        
+        /* Additional table improvements */
+        .content table caption {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        
+        .content table thead th {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        
+        /* Ensure proper spacing for regular content - NOT tables */
+        .content p {
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+        
+        .content ul, .content ol {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        
+        .content li {
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+        
+        /* Simple, clean bullet points and lists */
+        .content ul, .content ol {
+            margin: 15px 0;
+            padding-left: 20px;
+            background: none;
+            border: none;
+            box-shadow: none;
+        }
+        
+        .content ul li, .content ol li {
+            display: list-item;
+            list-style-type: inherit;
+            margin: 8px 0;
+            padding: 0;
+            background: none;
+            border: none;
+            box-shadow: none;
+        }
+        
+        .content ul li {
+            list-style-type: disc;
+        }
+        
+        .content ol li {
+            list-style-type: decimal;
+        }
+        
+        /* Remove any box styling from lists */
+        .content ul, .content ol {
+            background: transparent !important;
+            border: none !important;
+            box-shadow: none !important;
+            padding: 0 0 0 20px !important;
+        }
+
+        .meta-info {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        @media (max-width: 768px) {
+            .stock-info {
+                grid-template-columns: 1fr;
+            }
+            body {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="research-header">
+        <h1>Prakash Pipes Ltd (PPL) - Comprehensive Stock Research Report</h1>
+        
+        <div class="stock-info">
+            <div class="info-card">
+                <strong>Ticker:</strong><br>
+                PPL
+            </div>
+            <div class="info-card">
+                <strong>Sector:</strong><br>
+                Plastics & Packaging
+            </div>
+            <div class="info-card">
+                <strong>Current Price:</strong><br>
+                ₹322
+            </div>
+            <div class="info-card">
+                <strong>Market Cap:</strong><br>
+                ₹770 Cr
+            </div>
+            <div class="info-card">
+                <strong>Recommendation:</strong><br>
+                <span class="recommendation buy">BUY</span>
+            </div>
+            <div class="info-card">
+                <strong>Target Price:</strong><br>
+                ₹487 (12 months)
+            </div>
+
+            <div class="info-card">
+                <strong>Analysis Date:</strong><br>
+                August 27, 2025
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <h3 id="company-overview">Company Overview</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Company</strong></td>
+      <td>Prakash Pipes Ltd (PPL)</td>
+    </tr>
+    <tr>
+      <td><strong>Sector</strong></td>
+      <td>Plastics &amp; Packaging (PVC pipes &amp; fittings; Flexible packaging)</td>
+    </tr>
+    <tr>
+      <td><strong>Current Price</strong></td>
+      <td>₹322</td>
+    </tr>
+    <tr>
+      <td><strong>Market Cap</strong></td>
+      <td>₹770 Cr</td>
+    </tr>
+    <tr>
+      <td><strong>Analysis Date</strong></td>
+      <td>2025-08-27</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="industry-overview">Industry Overview</h3>
+
+<ul>
+  <li>The organised PVC‑pipes and flexible‑packaging industries are structurally attractive: packaging market in India is large (industry presentations cite ~Rs. 3 Lakh Cr addressable market) with ~12–15%+ CAGR in value terms for select flexible packaging segments.</li>
+  <li>Government capex (water supply, irrigation, affordable housing) is a key volume driver for PVC pipes — recent budgets and schemes (Jal Jeevan Mission / PMAY allocations) provide a multi‑year demand tailwind for pipe volumes.</li>
+  <li>Flexible packaging growth is driven by FMCG, food &amp; beverage and pharma — demand for barrier films and specialty laminates (value‑added products) is higher‑margin and growing faster than commodity pipe segments.</li>
+  <li>Commodity raw‑material (PVC resin, polymers) price volatility is the primary sector risk and can compress margins quickly; players with backward integration or recycling have a cost advantage.</li>
+  <li>Industry is consolidating: larger players and global acquirers are active; mid‑caps with scale, quality certifications and export capabilities can re‑rate if they show consistent margin improvement and growth.</li>
+</ul>
+
+<hr />
+
+<h3 id="detailed-analysis--scores">Detailed Analysis &amp; Scores</h3>
+
+<h4 id="sectoral-analysis-710">Sectoral Analysis: 7/10</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>PPL / Sector Context</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Addressable market (flexible packaging)</td>
+      <td>~Rs. 3 Lakh Cr (industry estimate)</td>
+    </tr>
+    <tr>
+      <td>Key demand drivers</td>
+      <td>Jal Jeevan Mission, PMAY, irrigation schemes; FMCG &amp; pharma packaging</td>
+    </tr>
+    <tr>
+      <td>Raw material risk</td>
+      <td>High (PVC resin / polymers)</td>
+    </tr>
+    <tr>
+      <td>Competitive landscape</td>
+      <td>Mix of large incumbents + regional unorganised players</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Score Reasoning:</strong></p>
+<ul>
+  <li>India’s structural demand for pipes (infrastructure + agriculture) and packaging (FMCG/pharma) supports sustained volume growth for organised players such as PPL.</li>
+  <li>PPL benefits from dual‑segment exposure (PVC pipes + flexible packaging) which reduces single‑market cyclicality and captures higher‑margin packaging opportunities.</li>
+  <li>Raw material volatility remains a sector headwind; PPL’s backward integration and recycling capability partially mitigate this risk but do not eliminate pricing cycles.</li>
+  <li>Geographic concentration (North India contributes significant share) is both strength (well‑penetrated markets) and risk (regional over‑reliance).</li>
+  <li>Consolidation and higher capex by larger peers could increase competition; however, demand tailwinds and product diversification keep sector prospects positive.</li>
+</ul>
+
+<h4 id="financial-strength-810">Financial Strength: 8/10</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Latest (FY25 / balance sheet)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Revenue (FY25)</td>
+      <td>Rs. 780 Cr</td>
+    </tr>
+    <tr>
+      <td>PAT (FY25)</td>
+      <td>Rs. 83 Cr</td>
+    </tr>
+    <tr>
+      <td>Cash &amp; equivalents (Mar 2025)</td>
+      <td>Rs. 257 Cr</td>
+    </tr>
+    <tr>
+      <td>Total debt (Mar 2025)</td>
+      <td>Rs. 39 Cr</td>
+    </tr>
+    <tr>
+      <td>Net cash</td>
+      <td>~Rs. 218 Cr (cash − debt)</td>
+    </tr>
+    <tr>
+      <td>Debt/Equity</td>
+      <td>0.09</td>
+    </tr>
+    <tr>
+      <td>Quick ratio</td>
+      <td>3.02</td>
+    </tr>
+    <tr>
+      <td>ROCE / ROE</td>
+      <td>ROCE ≈ 26–30% ; ROE ≈ 20%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Score Reasoning:</strong></p>
+<ul>
+  <li>Strong balance sheet: net cash position (~Rs. 218 Cr) and very low leverage (debt/equity ~0.09) give the company flexibility for organic capex and reduce refinancing risk.</li>
+  <li>Healthy profitability &amp; returns: ROCE (~27–30%) and ROE (~20%) are above sector medians, indicating efficient capital use.</li>
+  <li>Cash generation is robust (operating cash flows positive; company has funded multiple capex cycles internally) which supports continued expansion without meaningful debt.</li>
+  <li>Working capital metrics are comfortable (quick ratio &gt;3, current ratio &gt;3), reflecting conservative balance‑sheet management; but high cash balances also indicate potential for inefficient capital allocation if not deployed productively.</li>
+  <li>A one‑year PAT dip (FY24→FY25) and quarter‑level margin volatility highlight profit‑cycle sensitivity to input costs and short‑term demand swings.</li>
+</ul>
+
+<h4 id="valuations-710">Valuations: 7/10</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th style="text-align: right">PPL</th>
+      <th style="text-align: right">Sector/Peers (median)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>P/E (TTM)</td>
+      <td style="text-align: right">11.3x</td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      <td>P/BV</td>
+      <td style="text-align: right">1.74x</td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      <td>EV / EBITDA</td>
+      <td style="text-align: right">5.0x</td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      <td>ROE</td>
+      <td style="text-align: right">20.6%</td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      <td>Median peer P/E</td>
+      <td style="text-align: right">23.0x</td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      <td>Median peer EV/EBITDA</td>
+      <td style="text-align: right">13.5x</td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Score Reasoning:</strong></p>
+<ul>
+  <li>PPL looks inexpensive on standard metrics (P/E ~11.3x; EV/EBITDA ~5x) vs peer medians (P/E ~23x; EV/EBITDA ~13.5x), indicating a valuation discount that could compress as performance stabilises.</li>
+  <li>Low leverage and high ROCE support re‑rating potential; valuation appears to price in structural risk and shorter‑term margin volatility.</li>
+  <li>Price/Book ~1.7x while ROE ~20% suggests asset returns are healthy relative to book — room for multiple expansion if growth and margins sustain.</li>
+  <li>Risks that justify a discount: recent quarter margin deterioration, revenue mix concentration, and modest institutional ownership; these impede immediate multiple expansion.</li>
+  <li>Given current cash on balance sheet, an EV‑centric view shows the business is cheap on an operating earnings basis; realistic upside depends on margin recovery and multiple re‑rating.</li>
+</ul>
+
+<h4 id="growth-potential-810">Growth Potential: 8/10</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Growth levers</th>
+      <th>Evidence</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Capacity expansion (Packaging)</td>
+      <td>Commissioning of 3rd extrusion line; Nordmeccanica Supercombi 5000 laminator (FY24–FY25)</td>
+    </tr>
+    <tr>
+      <td>Pipes capacity &amp; product extension</td>
+      <td>CPVC / injection molding additions; current pipes capacity ~60,000 TPA</td>
+    </tr>
+    <tr>
+      <td>Demand tailwinds</td>
+      <td>Government water &amp; housing programmes; higher rural/irrigation spends</td>
+    </tr>
+    <tr>
+      <td>Revenue mix</td>
+      <td>FY25: PVC Pipes ~47% / Flexible Packaging ~47% (balanced mix)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Score Reasoning:</strong></p>
+<ul>
+  <li>Clear, funded capex roadmap: flexible‑packaging capacity additions and new product lines (HDPE barrels, CPVC, higher‑value laminates) expand addressable market and margin pool.</li>
+  <li>Management-funded capex (internal accruals) reduces dilution/financial risk and accelerates time to market for new lines.</li>
+  <li>Market tailwinds from government infrastructure programmes and rising packaged‑food &amp; pharma demand support multi‑year volume growth prospects.</li>
+  <li>Execution risk remains (timely ramp of new lines, utilisation in new products); but historical ramp‑ups (packaging volume growth +20–30% in recent years) demonstrate capability.</li>
+  <li>Near‑term margin and quarterly revenue volatility temper immediate growth monetisation, but structural growth path is intact.</li>
+</ul>
+
+<h4 id="corporate-governance-710">Corporate Governance: 7/10</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Governance metrics</th>
+      <th>Data</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Promoter holding</td>
+      <td>~44.4%</td>
+    </tr>
+    <tr>
+      <td>Pledged shares</td>
+      <td>0%</td>
+    </tr>
+    <tr>
+      <td>Dividend history</td>
+      <td>FY25: Rs. 2.40 / share (24% payout); prior years modest payouts</td>
+    </tr>
+    <tr>
+      <td>Board actions</td>
+      <td>Routine approvals (director tenure continued), timely disclosures</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Score Reasoning:</strong></p>
+<ul>
+  <li>Promoter holding is significant (~44%) but not overly concentrated; no pledging reported — positive for minority shareholders.</li>
+  <li>Company has a track record of dividend payouts (modest but present) and has maintained cash discipline while investing in capacity.</li>
+  <li>Disclosures (quarterly results, BSE announcements, investor presentations) are regular; management communicates strategy and capex plans consistently.</li>
+  <li>Institutional ownership remains low (FIIs ~1%–2%), limiting external governance pressure but also reflecting lower sell‑side coverage.</li>
+  <li>No major governance red flags identified (no related‑party excesses flagged in materials reviewed) but limited independent analyst coverage reduces transparency on third‑party checks.</li>
+</ul>
+
+<h4 id="research-reports-510">Research Reports: 5/10</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Coverage</th>
+      <th>Observations</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Broker / analyst coverage</td>
+      <td>Limited public broker reports in past 12 months; internal presentations and annual reports widely available</td>
+    </tr>
+    <tr>
+      <td>Company research</td>
+      <td>Multiple investor presentations (FY21–FY25) analysed; company provides consistent narrative</td>
+    </tr>
+    <tr>
+      <td>External research</td>
+      <td>Few independent, recent broker PDFs available via public sources (limited)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Score Reasoning:</strong></p>
+<ul>
+  <li>Primary source material (investor presentations, annual reports, corporate announcements) is comprehensive and useful for modelling.</li>
+  <li>There is limited recent sell‑side research coverage available publicly — reduces the breadth of independent target/consensus viewpoints.</li>
+  <li>Internal company guidance and presentations are clear on capacity and strategic intent, but third‑party valuation checks are sparse.</li>
+  <li>Where available, independent valuations (internal aggregator) show higher intrinsic values (indicative value &gt; current price), but independent broker targets are not plentiful.</li>
+  <li>Recommendation: monitor for formal broker coverage and independent research updates; current lack of widespread analyst coverage is a moderate negative.</li>
+</ul>
+
+<h4 id="technical-analysis-310">Technical Analysis: 3/10</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Technical snapshot (latest)</th>
+      <th>Value / Signal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Price trend (1Y)</td>
+      <td>Down from 52wk high ₹668 to current ₹322 (≈52% fall from high)</td>
+    </tr>
+    <tr>
+      <td>50 DMA vs Price</td>
+      <td>Price below 50 DMA and 200 DMA</td>
+    </tr>
+    <tr>
+      <td>Momentum / Oscillators</td>
+      <td>Momentum weak; MACD negative; RSI ~30 (near oversold)</td>
+    </tr>
+    <tr>
+      <td>Volume</td>
+      <td>Occasional high‑volume sell days; recent delivery percentages mixed</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Score Reasoning:</strong></p>
+<ul>
+  <li>Stock is technically weak: trading below all major SMAs and EMAs (short, medium and long term), indicating bearish momentum.</li>
+  <li>Oscillators show weakness (MACD negative, CCI negative); RSI near oversold suggests short‑term bounce potential but not confirmation of trend reversal.</li>
+  <li>Price has corrected sharply from 52‑week highs reflecting de‑rating or profit‑taking; technicals would need sustained improvement in price and volume for a trend reversal.</li>
+  <li>Short‑term technical risk is elevated; long‑term technical picture improves only if price sustains above 200/50 DMA with higher volumes.</li>
+  <li>For entry timing, technicals favour staged buying with protective stops rather than aggressive full allocation.</li>
+</ul>
+
+<h4 id="market-sentiments-610">Market Sentiments: 6/10</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sentiment drivers</th>
+      <th>Recent signals</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Positive catalysts</td>
+      <td>Commissioning of new laminator and extrusion lines; Q1 FY26: volume growth reported; dividend payout FY25</td>
+    </tr>
+    <tr>
+      <td>Negative catalysts</td>
+      <td>Price correction to 52‑week low; recent quarter margin dip (Q4 FY25 / Q1 FY26 weaker OPM)</td>
+    </tr>
+    <tr>
+      <td>Investor base</td>
+      <td>Retail &amp; domestic institutions dominant; marquee investor holdings (Dolly Khanna) visible</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Score Reasoning:</strong></p>
+<ul>
+  <li>Market sentiment is mixed: corporate actions and capacity additions are positive, but near‑term earnings volatility and multiple compression have weighed on price.</li>
+  <li>Presence of well‑known investors (public holding including Dolly Khanna ~3% historically) is a sentiment positive and signals selective investor conviction.</li>
+  <li>Low FII/DII participation limits broader institutional momentum; any upgrade in institutional flows could trigger a re‑rating.</li>
+  <li>Recent corporate announcements (equipment commissioning, Q1 FY26 results) are supportive but need follow‑through in margins and sales to change broader market sentiment.</li>
+</ul>
+
+<h4 id="shareholding-pattern-analysis-810">Shareholding Pattern Analysis: 8/10</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Holder type</th>
+      <th>Latest (Jun 2025)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Promoters</td>
+      <td>44.41%</td>
+    </tr>
+    <tr>
+      <td>FIIs</td>
+      <td>1.00%</td>
+    </tr>
+    <tr>
+      <td>DIIs</td>
+      <td>0.01%</td>
+    </tr>
+    <tr>
+      <td>Public / Others</td>
+      <td>54.59%</td>
+    </tr>
+    <tr>
+      <td>Notable public investors</td>
+      <td>Dolly Khanna (~3.16%), Mukul Mahavir Agrawal (~2.36%), Nilkanth Fincon (~1.25%)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Score Reasoning:</strong></p>
+<ul>
+  <li>Promoter stake is stable and no pledging observed — indicates promoter commitment and low financial stress.</li>
+  <li>Presence of well‑known retail/institutional investors (e.g., Dolly Khanna) is a quality signal and indicates selective conviction from experienced public investors.</li>
+  <li>FIIs and DIIs ownership low — simultaneous opportunity and risk: potential for large inflows if fundamentals and coverage improve, but currently limits institutional demand support.</li>
+  <li>Shareholding has been stable over multiple quarters; no material insider selling or governance red flags in public filings.</li>
+  <li>A large public float (~54%+) provides liquidity for secondary market trading and investor entry/exit.</li>
+</ul>
+
+<hr />
+
+<h2 id="peer-comparison-summary">Peer Comparison Summary</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>S.No.</th>
+      <th>Name</th>
+      <th style="text-align: right">Mar Cap (Rs.Cr.)</th>
+      <th style="text-align: right">P/E</th>
+      <th style="text-align: right">CMP / BV</th>
+      <th style="text-align: right">ROE%</th>
+      <th style="text-align: right">EV / EBITDA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1.</td>
+      <td>Supreme Inds.</td>
+      <td style="text-align: right">58,107.17</td>
+      <td style="text-align: right">65.3</td>
+      <td style="text-align: right">10.27</td>
+      <td style="text-align: right">17.1</td>
+      <td style="text-align: right">37.6</td>
+    </tr>
+    <tr>
+      <td>2.</td>
+      <td>Astral Ltd.</td>
+      <td style="text-align: right">37,342.91</td>
+      <td style="text-align: right">77.1</td>
+      <td style="text-align: right">10.32</td>
+      <td style="text-align: right">14.9</td>
+      <td style="text-align: right">38.7</td>
+    </tr>
+    <tr>
+      <td>3.</td>
+      <td>Finolex Inds.</td>
+      <td style="text-align: right">12,976.03</td>
+      <td style="text-align: right">35.1</td>
+      <td style="text-align: right">2.17</td>
+      <td style="text-align: right">6.8</td>
+      <td style="text-align: right">21.1</td>
+    </tr>
+    <tr>
+      <td>4.</td>
+      <td>Time Technoplast</td>
+      <td style="text-align: right">10,519.30</td>
+      <td style="text-align: right">26.1</td>
+      <td style="text-align: right">3.64</td>
+      <td style="text-align: right">14.2</td>
+      <td style="text-align: right">13.7</td>
+    </tr>
+    <tr>
+      <td>5.</td>
+      <td>Garware Hi Tech</td>
+      <td style="text-align: right">6,301.55</td>
+      <td style="text-align: right">19.3</td>
+      <td style="text-align: right">2.66</td>
+      <td style="text-align: right">15.0</td>
+      <td style="text-align: right">12.7</td>
+    </tr>
+    <tr>
+      <td>6.</td>
+      <td>Prakash Pipes (PPL)</td>
+      <td style="text-align: right">770.05</td>
+      <td style="text-align: right">11.3</td>
+      <td style="text-align: right">1.74</td>
+      <td style="text-align: right">20.6</td>
+      <td style="text-align: right">5.0</td>
+    </tr>
+    <tr>
+      <td>Median (selected peers)</td>
+      <td>Median</td>
+      <td style="text-align: right">321.61</td>
+      <td style="text-align: right">22.97</td>
+      <td style="text-align: right">2.70</td>
+      <td style="text-align: right">15.0</td>
+      <td style="text-align: right">13.46</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>PPL trades at a material discount to larger, established peers on P/E and EV/EBITDA, while delivering competitive ROE/ROCE figures — a candid valuation gap exists if execution and margins hold.</li>
+</ul>
+
+<h2 id="key-strengths">Key Strengths</h2>
+<ul>
+  <li>Net‑debt‑free / strong cash generation (net cash ~Rs. 218 Cr) and low leverage.</li>
+  <li>Balanced revenue mix between PVC pipes and flexible packaging (~47%/47% in FY25) with capacity additions in packaging (higher ASV potential).</li>
+  <li>High capital efficiency: ROCE ≈ 27–30% and ROE ≈ 20% (multi‑year track record).</li>
+  <li>Backward/forward integration and sustainability initiatives (recycling, zero‑liquid‑discharge) reduce input risk and strengthen customer credentials.</li>
+  <li>Visible marquee public investors and disciplined dividend policy (FY25 dividend declared).</li>
+</ul>
+
+<h2 id="key-concerns">Key Concerns</h2>
+<ul>
+  <li>Short‑term margin volatility: recent quarters (Q4 FY25 / Q1 FY26) show OPM compression vs FY24.</li>
+  <li>Geographic concentration in North India — limits diversification and exposes the company to regional demand cycles.</li>
+  <li>Limited sell‑side analyst coverage reduces visibility to large institutional investors.</li>
+  <li>Technical momentum weak — stock trades well below prior highs, signalling sentiment risk until operational recovery is visible.</li>
+  <li>Raw‑material (PVC/resin) price swings can materially compress margins.</li>
+</ul>
+
+<h2 id="scenario-analysis">Scenario Analysis</h2>
+
+<h3 id="optimistic-scenario">Optimistic Scenario</h3>
+<p><strong>Target Price:</strong> ₹756 (12 months)<br />
+<strong>Key Drivers:</strong> EV/EBITDA multiple expansion towards peer median (~13x) driven by sustainable margin recovery to ~17–18% EBITDA, steady volume ramp in packaging export orders, and institutional coverage leading to re‑rating. Net cash remains stable and capacity utilisation rises, validating premium multiples.</p>
+
+<h3 id="realistic-scenario">Realistic Scenario</h3>
+<p><strong>Target Price:</strong> ₹487 (12 months)<br />
+<strong>Key Drivers:</strong> Gradual margin recovery to ~16% EBITDA with packaging ramp improving blended margins, EV/EBITDA re‑rating to ~8x (partial catch‑up), continued net cash position and execution of product mix expansion (CPVC, HDPE barrels). Realistic operational improvement and limited multiple expansion deliver ~+50% upside.</p>
+
+<h3 id="pessimistic-scenario">Pessimistic Scenario</h3>
+<p><strong>Target Price:</strong> ₹250 (12 months)<br />
+<strong>Key Drivers:</strong> Continued margin pressure (EBITDA down ~20%) from raw‑material inflation and weak PVC demand; multiple stays compressed (~4x EV/EBITDA) as investor sentiment remains weak and institutional flows do not materialise. Earnings contraction and technical selling drive downside.</p>
+
+<h3 id="scenario-summary--target-price-analysis">Scenario Summary — Target Price Analysis</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Scenario</th>
+      <th style="text-align: right">Target Price</th>
+      <th style="text-align: right">Return vs CMP</th>
+      <th>Recommendation Logic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Optimistic</td>
+      <td style="text-align: right">₹756</td>
+      <td style="text-align: right">+135%</td>
+      <td>Strong upside if margins and multiple converge to peers</td>
+    </tr>
+    <tr>
+      <td>Realistic</td>
+      <td style="text-align: right">₹487</td>
+      <td style="text-align: right">+51%</td>
+      <td>Most likely if packaging ramp + margin recovery occur; forms primary basis for BUY</td>
+    </tr>
+    <tr>
+      <td>Pessimistic</td>
+      <td style="text-align: right">₹250</td>
+      <td style="text-align: right">−22%</td>
+      <td>Downside if demand stays weak and margins compress</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Investment Recommendation Based on Target Analysis:</strong></p>
+<ul>
+  <li><strong>Primary Recommendation:</strong> BUY (based on realistic scenario showing ≥15% upside — realistic upside ~51%).</li>
+  <li><strong>Risk-Reward Assessment:</strong> Attractive risk‑reward; strong balance sheet and re‑rating potential are the primary upside. Downside risk exists if margins deteriorate or demand softens (possible ~−20% in pessimistic case). Position sizing should reflect conviction and risk appetite (suggest phased entry).</li>
+</ul>
+
+<h2 id="investment-recommendation">Investment Recommendation</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Recommendation</td>
+      <td>BUY</td>
+    </tr>
+    <tr>
+      <td>Strategy Type</td>
+      <td>Medium‑term growth + re‑rating play</td>
+    </tr>
+    <tr>
+      <td>Entry Price Range</td>
+      <td>₹300 – ₹340</td>
+    </tr>
+    <tr>
+      <td>Stop Loss</td>
+      <td>₹260 (initial)</td>
+    </tr>
+    <tr>
+      <td>Target Price (realistic)</td>
+      <td>₹487 (12 months)</td>
+    </tr>
+    <tr>
+      <td>Suggested Position Size</td>
+      <td>Medium (2–5% of portfolio) — staggered entry</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Recommendation Reasoning:</strong></p>
+<ul>
+  <li>Balance‑sheet strength (net cash) reduces execution / financing risk and allows internally funded growth.</li>
+  <li>Dual revenue engines (PVC pipes + flexible packaging) provide growth optionality — packaging expansion is the high‑margin upside.</li>
+  <li>Current valuation is cheap vs peers (EV/EBITDA ~5x vs peer median ~13.5x); partial multiple normalisation plus margin recovery supports meaningful upside.</li>
+  <li>Near‑term risk (margin volatility, concentration, weak technicals) warrants a phased buy with protective stop loss and monitoring of quarterly margin trends.</li>
+  <li>Monitor institutional/international investor flows and broker coverage — an uptick in coverage would likely accelerate re‑rating.</li>
+</ul>
+
+<h2 id="investment-thesis">Investment Thesis</h2>
+
+<ol>
+  <li>Prakash Pipes is a well‑capitalised mid‑cap with a balanced business mix (pipes + flexible packaging) and strong operating returns (ROCE ~27–30%).</li>
+  <li>Management has executed capacity expansions (packaging lines, laminator) funded from internal accruals — lowers financial risk and improves product mix for higher ASV orders.</li>
+  <li>The company’s net‑cash position (~Rs. 218 Cr) creates optionality for capex, dividend stability (FY25: Rs. 2.40/sh), and potential M&amp;A if attractive targets arise.</li>
+  <li>Valuation is materially cheaper than peers; realistic multiple expansion to mid‑single digit EV/EBITDA (8x) combined with margin recovery yields meaningful upside (realistic target ₹487).</li>
+  <li>Key risks (raw material volatility, regional concentration, limited analyst coverage) require monitoring; use staged allocation and stop loss to manage downside.</li>
+</ol>
+
+<h2 id="documents-analyzed">Documents Analyzed</h2>
+
+<ul>
+  <li>Company investor presentations: FY2025 Annual Presentation (June 2025), FY2023 &amp; FY2021 investor decks.</li>
+  <li>Annual Reports (FY2020–FY2025) and audited financial statements.</li>
+  <li>Q1 FY26 unaudited results and press release (Board meeting announcement, 14 Aug 2025).</li>
+  <li>BSE corporate announcements: commissioning of Nordmeccanica Supercombi 5000 laminator (Sep 2024); commissioning of 3rd extrusion coating line (May 2024).</li>
+  <li>Internal aggregator summary data and valuation ratios.</li>
+</ul>
+
+<h2 id="disclaimer">Disclaimer</h2>
+
+<p><strong>IMPORTANT DISCLAIMER</strong>: This analysis is for informational and educational purposes only and should not be considered as personalized investment advice. Stock investments carry inherent risks, including the potential for significant loss of capital. Past performance does not guarantee future results. Investors should conduct their own research, consider their individual financial circumstances, risk tolerance, and investment objectives before making any investment decisions. The author and publisher disclaim any liability for investment decisions made based on this analysis. Please consult with a qualified financial advisor for personalized investment advice.</p>
+
+<p><strong>END OF ANALYSIS</strong></p>
+
+    </div>
+
+    <div class="meta-info">
+        <p><strong>Published:</strong> August 27, 2025 at 12:00 AM</p>
+    </div>
+</body>
+</html>
