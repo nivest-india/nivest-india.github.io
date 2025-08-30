@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infosys Ltd (INFY) - Comprehensive Stock Research Report - Nivest India - Stock Research Reports</title>
+    <meta name="description" content="Infosys Ltd (INFY) - Comprehensive Stock Research Report - Stock Research Report">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+    <link rel="manifest" href="/assets/images/site.webmanifest">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .research-header {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .stock-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .info-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #007bff;
+        }
+        .recommendation {
+            font-weight: bold;
+            padding: 5px 15px;
+            border-radius: 20px;
+            display: inline-block;
+        }
+        .recommendation.buy { background: #d4edda; color: #155724; }
+        .recommendation.strong-buy { background: #c3e6cb; color: #155724; }
+        .recommendation.hold { background: #fff3cd; color: #856404; }
+        .recommendation.sell { background: #f8d7da; color: #721c24; }
+        .recommendation.avoid { background: #f8d7da; color: #721c24; }
+        .content {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .content h1, .content h2, .content h3 {
+            color: #2c3e50;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+        }
+        /* Table-specific styling - only applies to actual HTML table elements */
+        .content table {
+            width: 100% !important;
+            border-collapse: collapse !important;
+            margin: 20px 0 !important;
+            border: 1px solid #ddd !important;
+            background: white !important;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+            font-size: 14px !important;
+            line-height: 1.4 !important;
+        }
+        .content table th, .content table td {
+            border: 1px solid #ddd !important;
+            padding: 12px !important;
+            text-align: left !important;
+            vertical-align: top !important;
+            word-wrap: break-word !important;
+            max-width: 300px !important;
+        }
+        .content table th {
+            background-color: #f8f9fa !important;
+            font-weight: 600 !important;
+            color: #2c3e50 !important;
+            border-bottom: 2px solid #dee2e6 !important;
+        }
+        .content table td {
+            background-color: white !important;
+        }
+        .content table tr:nth-child(even) td {
+            background-color: #f8f9fa !important;
+        }
+        .content table tr:hover td {
+            background-color: #e9ecef !important;
+        }
+        
+        /* Additional table improvements */
+        .content table caption {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        
+        .content table thead th {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        
+        /* Ensure proper spacing for regular content - NOT tables */
+        .content p {
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+        
+        .content ul, .content ol {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        
+        .content li {
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+        
+        /* Simple, clean bullet points and lists */
+        .content ul, .content ol {
+            margin: 15px 0;
+            padding-left: 20px;
+            background: none;
+            border: none;
+            box-shadow: none;
+        }
+        
+        .content ul li, .content ol li {
+            display: list-item;
+            list-style-type: inherit;
+            margin: 8px 0;
+            padding: 0;
+            background: none;
+            border: none;
+            box-shadow: none;
+        }
+        
+        .content ul li {
+            list-style-type: disc;
+        }
+        
+        .content ol li {
+            list-style-type: decimal;
+        }
+        
+        /* Remove any box styling from lists */
+        .content ul, .content ol {
+            background: transparent !important;
+            border: none !important;
+            box-shadow: none !important;
+            padding: 0 0 0 20px !important;
+        }
+
+        .meta-info {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        @media (max-width: 768px) {
+            .stock-info {
+                grid-template-columns: 1fr;
+            }
+            body {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="research-header">
+        <h1>Infosys Ltd (INFY) - Comprehensive Stock Research Report</h1>
+        
+        <div class="stock-info">
+            <div class="info-card">
+                <strong>Ticker:</strong><br>
+                INFY
+            </div>
+            <div class="info-card">
+                <strong>Sector:</strong><br>
+                Information Technology (IT Services)
+            </div>
+            <div class="info-card">
+                <strong>Current Price:</strong><br>
+                ₹1,470
+            </div>
+            <div class="info-card">
+                <strong>Market Cap:</strong><br>
+                ₹6,10,526 Cr
+            </div>
+            <div class="info-card">
+                <strong>Recommendation:</strong><br>
+                <span class="recommendation buy">BUY</span>
+            </div>
+            <div class="info-card">
+                <strong>Target Price:</strong><br>
+                ₹1,700 (12 months)
+            </div>
+
+            <div class="info-card">
+                <strong>Analysis Date:</strong><br>
+                August 30, 2025
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <h3 id="company-overview">Company Overview</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Company</strong></td>
+      <td>Infosys Ltd (INFY)</td>
+    </tr>
+    <tr>
+      <td><strong>Sector</strong></td>
+      <td>Information Technology (IT Services)</td>
+    </tr>
+    <tr>
+      <td><strong>Current Price</strong></td>
+      <td>₹1,470</td>
+    </tr>
+    <tr>
+      <td><strong>Market Cap</strong></td>
+      <td>₹6,10,526 Cr</td>
+    </tr>
+    <tr>
+      <td><strong>Analysis Date</strong></td>
+      <td>2025-08-30</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="industry-overview">Industry Overview</h3>
+
+<ul>
+  <li>Global IT services remains a secular growth industry (management / investor presentation guidance: global IT services market expanding ~8-9% CAGR) driven by digital transformation, cloud migration and now accelerated adoption of Generative AI.</li>
+  <li>Indian large-cap IT players (TCS, Infosys, HCL, Wipro, LTIMindtree) compete on large-deal wins, digital/IP-led services and margin delivery; vendor consolidation is ongoing and favors scale + IP.</li>
+  <li>Demand is bifurcated: resilient cost-transformation and cloud/AI projects, while discretionary spending (new product development, R&amp;D) is softer — creating cyclical revenue risk in the near term.</li>
+  <li>Currency, geopolitics and tariff/regulatory moves in developed markets (US/EU) remain the primary macro downside risks for Indian IT exports.</li>
+</ul>
+
+<h3 id="detailed-analysis--scores">Detailed Analysis &amp; Scores</h3>
+
+<h4 id="sectoral-analysis-810">Sectoral Analysis: 8/10</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Global IT services CAGR (industry)</td>
+      <td>~8-9%</td>
+    </tr>
+    <tr>
+      <td>Infosys digital services share</td>
+      <td>~57% of revenues</td>
+    </tr>
+    <tr>
+      <td>Geographic mix (Q1 FY26 investor deck)</td>
+      <td>North America ~56.5% / Europe ~31.5% / RoW ~9.1% / India ~2.9%</td>
+    </tr>
+    <tr>
+      <td>Key verticals (approx.)</td>
+      <td>Financial Services ~28-32% ; Retail ~13-15% ; Manufacturing ~11-16%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Score Reasoning:</strong></p>
+<ul>
+  <li>Strong secular tailwinds: AI, cloud and automation provide sustainable demand for transformation projects (positive structural drivers for the sector and Infosys specifically).</li>
+  <li>Infosys is well positioned in higher-value digital services (management states ~57% digital), which command better margins vs legacy application maintenance.</li>
+  <li>Sector is cyclically sensitive: discretionary/large transformation budgets have greater volatility; macro/tariff risk can materially slow top-line in the short term.</li>
+  <li>Competitive but defensible: large global clients, consulting-led deals and IP (TOPAZ, Finacle, EdgeVerve) provide a differentiated value proposition versus mid-tier peers.</li>
+  <li>Overall sector outlook favorable but with near-term cyclical headwinds — hence a high but not perfect score.</li>
+</ul>
+
+<h4 id="financial-strength-910">Financial Strength: 9/10</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sales (TTM)</td>
+      <td>₹165,954 Cr</td>
+    </tr>
+    <tr>
+      <td>Net profit (TTM)</td>
+      <td>₹27,300 Cr</td>
+    </tr>
+    <tr>
+      <td>Operating margin (TTM)</td>
+      <td>~24%</td>
+    </tr>
+    <tr>
+      <td>Cash &amp; investments (Q4 FY25 fact sheet)</td>
+      <td>₹47,549 Cr</td>
+    </tr>
+    <tr>
+      <td>Borrowings (Mar 2025)</td>
+      <td>₹8,227 Cr</td>
+    </tr>
+    <tr>
+      <td>Debt / Equity</td>
+      <td>0.09</td>
+    </tr>
+    <tr>
+      <td>Free cash flow (recent)</td>
+      <td>₹33,457 Cr (reported FCF figure)</td>
+    </tr>
+    <tr>
+      <td>ROE / ROCE</td>
+      <td>ROE ~28.8% / ROCE ~37.5%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Score Reasoning:</strong></p>
+<ul>
+  <li>Exceptional cash generation and liquidity: large cash + investments (₹47,549 Cr) vs modest borrowings (₹8,227 Cr) -&gt; net cash cushion ~₹39k Cr; supports buybacks, dividends and M&amp;A optionality.</li>
+  <li>High capital efficiency: ROE ~29% and ROCE ~38% indicate strong returns on invested capital across business cycles.</li>
+  <li>Healthy margins and stable profitability: OPM ~24% (TTM) and consistent net margins; strong interest coverage (int coverage ~93x).</li>
+  <li>Conservative balance sheet: low leverage (D/E 0.09) reduces financial risk and increases resilience in a slowdown.</li>
+  <li>Working-capital metrics are reasonable (Debtor days ~70; C.C.C ~70 days), and cash-conversion remains strong (high FCF relative to PAT).</li>
+</ul>
+
+<h4 id="valuations-610">Valuations: 6/10</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>P/E (TTM)</td>
+      <td>22.4x</td>
+    </tr>
+    <tr>
+      <td>Price / Book (P/BV)</td>
+      <td>6.43x</td>
+    </tr>
+    <tr>
+      <td>EV / EBITDA</td>
+      <td>13.6x</td>
+    </tr>
+    <tr>
+      <td>Dividend yield</td>
+      <td>2.9%</td>
+    </tr>
+    <tr>
+      <td>Median sector P/E (peer set)</td>
+      <td>~29.6x (median shown in peer data)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Score Reasoning:</strong></p>
+<ul>
+  <li>Relative to its own history and high-quality peers, Infosys is trading at a moderate valuation — P/E ~22.4x which is below some historical ranges and below peer median in datasets (gives valuation support).</li>
+  <li>P/B remains elevated (~6.4x) because of strong ROE (capital-light model generates high book-value multiples).</li>
+  <li>EV/EBITDA (~13.6x) is within peer ranges — not cheap enough to be an obvious deep value pick, but reasonable given cash generation and ROIC.</li>
+  <li>Dividend yield and high payout (~66.7%) provide income support; buybacks announced/executed in FY25 enhance returns.</li>
+  <li>Overall: fair valuation for a high-quality cash-generative franchise; not deeply cheap, so upside depends on multiple re-rating or improved growth/margins.</li>
+</ul>
+
+<h4 id="growth-potential-610">Growth Potential: 6/10</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sales CAGR (5 yr)</td>
+      <td>~12.4%</td>
+    </tr>
+    <tr>
+      <td>EPS growth (5 yr)</td>
+      <td>~10.6%</td>
+    </tr>
+    <tr>
+      <td>Large‑deal TCV (FY)</td>
+      <td>Company decks report multi‑bn USD TCV (large‑deal pipeline)</td>
+    </tr>
+    <tr>
+      <td>Management guidance (near term)</td>
+      <td>FY26: low‑to‑mid single digit CC growth (company/brokers)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Score Reasoning:</strong></p>
+<ul>
+  <li>Structural growth via digital, cloud and AI is meaningful — management targets AI-enabled revenue share increases (management commentary: goal ~30% AI-enabled revenue by FY28).</li>
+  <li>Historical revenue/EPS CAGRs are solid (5‑yr sales CAGR ~12%), but recent TTM growth has slowed (TTM growth ~7%); near-term organic growth guidance is conservative (mid-single digits).</li>
+  <li>Large-deal pipeline provides upside if conversion and ramp-ups occur — this is the primary growth lever; execution risk remains (book-to-bill below peak in some quarters).</li>
+  <li>Margin expansion via automation/AI could boost EPS without massive revenue growth, but wage inflation and passthrough dynamics are offsetting factors.</li>
+  <li>Overall growth outlook is steady and credible (high quality), but not high single-digit/high‑teens growth in the base case — hence a mid score.</li>
+</ul>
+
+<h4 id="corporate-governance-810">Corporate Governance: 8/10</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Promoter holding</td>
+      <td>~14.6%</td>
+    </tr>
+    <tr>
+      <td>Promoter pledge</td>
+      <td>0.00%</td>
+    </tr>
+    <tr>
+      <td>Dividend payout (recent)</td>
+      <td>~66.7%</td>
+    </tr>
+    <tr>
+      <td>Share buybacks (recent)</td>
+      <td>Large buyback executed in FY25 (management disclosures)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Score Reasoning:</strong></p>
+<ul>
+  <li>High governance standards and transparency: consistent reporting, regular investor presentations, wide analyst coverage; management communicates actions (guidance, buybacks, capital return).</li>
+  <li>Shareholder returns are a priority: high payout ratio and large buybacks (FY25), indicating shareholder-friendly capital allocation.</li>
+  <li>Promoter stake is significant but dispersed among founding family and senior founders — alignment exists without dominance issues; no pledge.</li>
+  <li>Board &amp; management track record: stable senior team and proactive strategy (AI, acquisitions). A legal dispute (trade-secret allegation from a competitor) exists — increases vigilance but not a governance breach to date.</li>
+  <li>Overall strong governance credentials relative to peers.</li>
+</ul>
+
+<h4 id="research-reports-710">Research Reports: 7/10</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Broker</th>
+      <th>Date</th>
+      <th>Call / TP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Prabhudas Lilladher</td>
+      <td>21-Apr-2025</td>
+      <td>BUY — TP ~₹1,630</td>
+    </tr>
+    <tr>
+      <td>Emkay</td>
+      <td>18-Apr-2025</td>
+      <td>BUY — TP ~₹1,650</td>
+    </tr>
+    <tr>
+      <td>Deven Choksey</td>
+      <td>24-Jul-2025</td>
+      <td>BUY — TP ~₹1,830</td>
+    </tr>
+    <tr>
+      <td>Motilal Oswal</td>
+      <td>23-Jul-2025</td>
+      <td>NEUTRAL — TP ~₹1,750</td>
+    </tr>
+    <tr>
+      <td>Prabhudas (Jul update)</td>
+      <td>24-Jul-2025</td>
+      <td>ACCUMULATE — TP ~₹1,750</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Score Reasoning:</strong></p>
+<ul>
+  <li>Heavy analyst coverage with a mix of BUY / ACCUMULATE / NEUTRAL calls; most reports in 2025 place 12–24 month TPs in the ₹1,600–1,850 range.</li>
+  <li>Common broker thesis: margin resilience + AI/digital pivot + strong cash returns. Risks emphasized: soft discretionary demand, wage inflation, acquisition integration.</li>
+  <li>Reports show modest upside in consensus (mid‑teens%) — supportive but not overly bullish.</li>
+  <li>Availability of timely broker updates and company presentations improves visibility for investors.</li>
+  <li>Rating reflects broad coverage and generally constructive (but cautious) analyst stance.</li>
+</ul>
+
+<h4 id="technical-analysis-410">Technical Analysis: 4/10</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Current Price (trendlyne / NSE)</td>
+      <td>₹1,469.60</td>
+    </tr>
+    <tr>
+      <td>50‑DMA</td>
+      <td>~₹1,520</td>
+    </tr>
+    <tr>
+      <td>200‑DMA</td>
+      <td>~₹1,619</td>
+    </tr>
+    <tr>
+      <td>RSI (14)</td>
+      <td>44 (neutral)</td>
+    </tr>
+    <tr>
+      <td>MACD</td>
+      <td>Below center (bearish)</td>
+    </tr>
+    <tr>
+      <td>Key pivot supports</td>
+      <td>S1 ₹1,457 / S2 ₹1,445 / S3 ₹1,423</td>
+    </tr>
+    <tr>
+      <td>Key resistances</td>
+      <td>R1 ₹1,491 / R2 ₹1,513 / R3 ₹1,526</td>
+    </tr>
+    <tr>
+      <td>52‑week fall from high</td>
+      <td>~‑27% from ₹2,006</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Score Reasoning:</strong></p>
+<ul>
+  <li>Price is below 50‑ and 200‑day moving averages (trend weakness); Trendlyne signals trading below most SMAs/EMAs (bearish technical posture).</li>
+  <li>Momentum indicators mixed-to-negative: RSI ~44 (neutral), MACD below center (negative), Stochastic/Rsi oscillators showing limited short-term bounce potential.</li>
+  <li>Support cluster in the ₹1,420–1,460 zone — important for any tactical buying; resistance near ₹1,500–1,520 must be cleared for a trend reversal.</li>
+  <li>Trading volumes show periods of heavy selling in the correction phase; price action remains vulnerable to market sentiment despite strong fundamentals.</li>
+  <li>Technicals favor a wait/buy‑on‑dip approach rather than a breakout pick.</li>
+</ul>
+
+<h4 id="market-sentiments-510">Market Sentiments: 5/10</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sentiment factor</th>
+      <th>Recent signal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>News flow</td>
+      <td>Mixed — AI pivot &amp; buybacks positive ; softer demand / tariff risk and legal dispute negative</td>
+    </tr>
+    <tr>
+      <td>Broker stance</td>
+      <td>Mostly BUY / ACCUMULATE with cautious commentary</td>
+    </tr>
+    <tr>
+      <td>Macro (US Fed/FX) impact</td>
+      <td>Rate outlook + INR/USD volatility materially affects multiples and translation of USD revenues</td>
+    </tr>
+    <tr>
+      <td>Momentum in sector</td>
+      <td>Volatile — occasional sector rallies on rate hopes but structural demand softness persists</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Score Reasoning:</strong></p>
+<ul>
+  <li>Market reaction to earnings/guidance and macro cues (Fed / rate cut expectations) drives short-term volatility; recent sell-off reflects lower near-term growth visibility.</li>
+  <li>Company-specific positives (TOPAZ/AI, buyback, dividend policy) moderate negative sentiment.</li>
+  <li>Legal dispute (trade-secret allegation from a competitor) and slower discretionary spend have dented sentiment, though not systemic.</li>
+  <li>Analyst coverage and capital returns keep a neutral-to-cautious investor stance.</li>
+  <li>Sentiment is balanced; neither highly negative nor strongly positive.</li>
+</ul>
+
+<h4 id="shareholding-pattern-analysis-810">Shareholding Pattern Analysis: 8/10</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Period</th>
+      <th>Promoters</th>
+      <th>FIIs</th>
+      <th>DIIs</th>
+      <th>Public</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Jun 2025</td>
+      <td>14.61%</td>
+      <td>31.92%</td>
+      <td>39.39%</td>
+      <td>13.62%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Score Reasoning:</strong></p>
+<ul>
+  <li>Promoter holding (~14.6%) provides alignment with founders involved; no pledge.</li>
+  <li>Institutional ownership is high and high-quality: DIIs have increased (supportive), FIIs remain significant (~32%) with notable global funds (Government of Singapore, Vanguard, GPFG).</li>
+  <li>Large mutual fund and LIC presence provides stability; recent DII accumulation (vs earlier periods) is a positive signal.</li>
+  <li>Free float is adequate; top-25 clients concentration (revenue side) is a separate operational risk but not a shareholding issue.</li>
+  <li>Overall institutional quality and promoter behaviour supportive of the stock.</li>
+</ul>
+
+<h2 id="peer-comparison-summary">Peer Comparison Summary</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Market Cap (Rs.Cr.)</th>
+      <th style="text-align: right">P/E</th>
+      <th style="text-align: right">CMP / BV</th>
+      <th style="text-align: right">ROE%</th>
+      <th style="text-align: right">EV / EBITDA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TCS</td>
+      <td>₹11,16,071 Cr</td>
+      <td style="text-align: right">22.65</td>
+      <td style="text-align: right">11.78</td>
+      <td style="text-align: right">52.4%</td>
+      <td style="text-align: right">15.36</td>
+    </tr>
+    <tr>
+      <td>Infosys</td>
+      <td>₹6,10,526 Cr</td>
+      <td style="text-align: right">22.39</td>
+      <td style="text-align: right">6.43</td>
+      <td style="text-align: right">28.8%</td>
+      <td style="text-align: right">13.59</td>
+    </tr>
+    <tr>
+      <td>HCL Technologies</td>
+      <td>₹3,94,784 Cr</td>
+      <td style="text-align: right">23.26</td>
+      <td style="text-align: right">5.67</td>
+      <td style="text-align: right">25.0%</td>
+      <td style="text-align: right">13.77</td>
+    </tr>
+    <tr>
+      <td>Wipro</td>
+      <td>₹2,61,465 Cr</td>
+      <td style="text-align: right">19.42</td>
+      <td style="text-align: right">3.15</td>
+      <td style="text-align: right">16.6%</td>
+      <td style="text-align: right">12.12</td>
+    </tr>
+    <tr>
+      <td>LTIMindtree</td>
+      <td>₹1,52,165 Cr</td>
+      <td style="text-align: right">32.25</td>
+      <td style="text-align: right">6.70</td>
+      <td style="text-align: right">21.5%</td>
+      <td style="text-align: right">19.60</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Infosys trades at a modest P/E similar to TCS but with a lower CMP/BV than TCS and higher ROE than most mid‑tier peers — positioning it as a high‑quality, cash‑generative franchise at a reasonable valuation vs history.</li>
+  <li>EV/EBITDA for Infosys sits comfortably in the peer band; relative attractiveness depends on conviction around growth/margins.</li>
+</ul>
+
+<h2 id="key-strengths">Key Strengths</h2>
+<ul>
+  <li>Strong cash generation and net cash balance (large cash &amp; investments vs low borrowings).</li>
+  <li>High capital efficiency: ROE ~29% and ROCE ~38%.</li>
+  <li>Leading digital &amp; AI capability (TOPAZ / EdgeVerve) and a large global client base with sizeable large‑deal pipeline.</li>
+  <li>Shareholder-friendly capital allocation (high payout and sizeable buybacks executed/planned).</li>
+  <li>Diversified end-market exposure with a strong position in Financial Services.</li>
+</ul>
+
+<h2 id="key-concerns">Key Concerns</h2>
+<ul>
+  <li>Near-term revenue cyclicality: discretionary spend remains soft — management guidance is cautious (mid-single-digit CC growth).</li>
+  <li>Wage inflation and passthrough dynamics can compress margins if productivity levers underperform.</li>
+  <li>Legal dispute / litigation risk (competitor trade-secret allegation) — watch for litigation outcomes.</li>
+  <li>Technical momentum weak (price down ~27% from 52‑week high), increasing short-term market risk.</li>
+  <li>Client concentration risk (top‑25 clients ~53% of revenue) — loss or slow ramp of a large client could impact growth.</li>
+</ul>
+
+<h2 id="scenario-analysis">Scenario Analysis</h2>
+
+<h3 id="optimistic-scenario">Optimistic Scenario</h3>
+<p><strong>Target Price:</strong> ₹1,900 (24 months)<br />
+<strong>Key Drivers:</strong> Successful monetization of AI/IP (TOPAZ) leading to margin expansion to ~22%+; large‑deal conversions accelerate (TCV ramp); multiple expansion to ~25–26x on stronger FY27–FY28 EPS (~₹74‑77) and continued shareholder returns (dividends + buybacks). Execution of acquisitions and cross-sell to large clients adds incremental revenue and higher margins.</p>
+
+<h3 id="realistic-scenario">Realistic Scenario</h3>
+<p><strong>Target Price:</strong> ₹1,700 (12 months)<br />
+<strong>Key Drivers:</strong> Management delivers on conservative guidance (FY26 mid-single-digit CC growth), margins improve modestly (50–100 bps) via automation and lower passthrough; FY27E EPS ~₹72; market values the stock at ~23x forward earnings → TP ≈ ₹1,700. This reflects consensus broker median and achievable execution.</p>
+
+<h3 id="pessimistic-scenario">Pessimistic Scenario</h3>
+<p><strong>Target Price:</strong> ₹1,250 (12 months)<br />
+<strong>Key Drivers:</strong> Prolonged macro weakness or tariff-driven client slowdowns reduce organic growth (FY26 growth ~0%); wage inflation squeezes margins (no offsetting productivity); multiple compression to ~20x on lower EPS (~₹62) and market de‑rating; weaker investor sentiment drives the stock lower.</p>
+
+<h3 id="scenario-summary--target-price-analysis">Scenario Summary — Target Price Analysis</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Scenario</th>
+      <th>Target Price</th>
+      <th style="text-align: right">Return vs CMP</th>
+      <th>Recommendation Logic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Optimistic Case</strong></td>
+      <td>₹1,900</td>
+      <td style="text-align: right">+29.3%</td>
+      <td>Strong execution on AI/digital + multiple expansion</td>
+    </tr>
+    <tr>
+      <td><strong>Realistic Case</strong></td>
+      <td>₹1,700</td>
+      <td style="text-align: right">+15.6%</td>
+      <td>Balanced delivery of guidance, modest margin improvement</td>
+    </tr>
+    <tr>
+      <td><strong>Pessimistic Case</strong></td>
+      <td>₹1,250</td>
+      <td style="text-align: right">-14.9%</td>
+      <td>Execution / demand failure with multiple compression</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Investment Recommendation Based on Target Analysis:</strong></p>
+<ul>
+  <li><strong>Primary Recommendation:</strong> BUY — realistic scenario implies ≈+15.6% upside in 12 months, meeting the ≥15% upside threshold for a BUY call.</li>
+  <li><strong>Risk-Reward Assessment:</strong> Upside is mid‑teens assuming stable execution; downside is limited by balance-sheet strength and high institutional ownership but not negligible given near-term cyclical risk. Position sizing should reflect medium conviction with monitoring triggers (see entry/stop guidance).</li>
+</ul>
+
+<h2 id="investment-recommendation">Investment Recommendation</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Recommendation</th>
+      <th>Strategy Type</th>
+      <th>Entry Price Range</th>
+      <th>Stop Loss</th>
+      <th>Target Price</th>
+      <th>Position Size</th>
+      <th>Timeline</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BUY</td>
+      <td>Core‑long (value + yield)</td>
+      <td>Buy on dips ₹1,350 – ₹1,470</td>
+      <td>₹1,200 (hard stop)</td>
+      <td>₹1,700 (12 months)</td>
+      <td>Medium (2–5% of portfolio)</td>
+      <td>12 months</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Recommendation Reasoning:</strong></p>
+<ul>
+  <li>Infosys is a high-quality, cash-generative IT leader with strong ROE/ROCE, large cash reserves and a shareholder-friendly capital return policy — these structural positives justify a core allocation.</li>
+  <li>Realistic case (TP ₹1,700) shows &gt;15% upside in 12 months given modest margin improvements and multiple stabilization — meets BUY criteria.</li>
+  <li>Near-term risk (cyclical demand, wage pressure, legal matter) warrants cautious position sizing and a stop-loss; prefer staggered entry on weakness and re-evaluate after next two quarters of results.</li>
+</ul>
+
+<h2 id="investment-thesis">Investment Thesis</h2>
+<ol>
+  <li>Infosys combines a high-quality balance sheet (net cash), strong cash conversion and disciplined capital returns (dividends + buybacks) — providing downside support even in cyclical markets.</li>
+  <li>The company’s shift to AI-led, IP-enabled services (TOPAZ, EdgeVerve) and focus on large‑deal wins offers durable margin and revenue upside, contingent on conversion/execution.</li>
+  <li>Valuation (~22x P/E) is reasonable relative to cash-flow strength and ROE profile; re-rating potential exists if growth/margins improve and large deals ramp.</li>
+  <li>Execution risk concentrates around client discretionary spend, wage inflation and successful integration of acquisitions — these are the key monitoring points.</li>
+  <li>Recommended action: accumulate on weakness for a medium-sized core position with a 12‑month view toward the realistic TP, while monitoring Q2/Q3 results and large‑deal conversion.</li>
+</ol>
+
+<h2 id="documents-analyzed">Documents Analyzed</h2>
+<ul>
+  <li>Prabhudas Lilladher research note — 21 Apr 2025 (Infosys Ltd. research)</li>
+  <li>Emkay Global Financial Services result update — 18 Apr 2025</li>
+  <li>Deven Choksey research note — 24 Jul 2025</li>
+  <li>Motilal Oswal results update — 23 Jul 2025</li>
+  <li>Company investor presentation (Q1 FY26) — Jun 2025</li>
+  <li>Company Q4 FY25 fact sheet / quarterly presentation — Mar 2025</li>
+</ul>
+
+<h2 id="disclaimer">Disclaimer</h2>
+
+<p><strong>IMPORTANT DISCLAIMER</strong>: This analysis is for informational and educational purposes only and should not be considered as personalized investment advice. Stock investments carry inherent risks, including the potential for significant loss of capital. Past performance does not guarantee future results. Investors should conduct their own research, consider their individual financial circumstances, risk tolerance, and investment objectives before making any investment decisions. The author and publisher disclaim any liability for investment decisions made based on this analysis. Please consult with a qualified financial advisor for personalized investment advice.</p>
+
+<p><strong>END OF ANALYSIS</strong></p>
+
+    </div>
+
+    <div class="meta-info">
+        <p><strong>Published:</strong> August 30, 2025 at 12:00 AM</p>
+    </div>
+</body>
+</html>

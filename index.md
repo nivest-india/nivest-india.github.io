@@ -23,7 +23,7 @@ description: "Comprehensive stock research reports and investment analysis for I
 - **Technical Analysis & Market Sentiment** - Price trends and market positioning
 - **Shareholding Pattern Analysis** - Institutional participation and investor quality
 
-**Investment Recommendations**: Clear BUY/HOLD/SELL/AVOID ratings with probability-weighted target prices derived from comprehensive scenario analysis (Bull/Base/Bear cases)
+**Investment Recommendations**: Clear BUY/HOLD/SELL/AVOID ratings based on comprehensive scenario analysis (Bull/Base/Bear cases)
 
 **Sector Coverage**: Analysis across all major Indian market sectors with real-time data integration
 
@@ -31,17 +31,12 @@ description: "Comprehensive stock research reports and investment analysis for I
 
 Our AI system follows a structured, data-driven approach:
 
-**Data Aggregation** - Real-time collection from multiple financial data sources and company filings
-
-**Multi-Pillar Scoring** - Systematic evaluation across 8 key financial and qualitative dimensions
-
-**Scenario Modeling** - Probability-weighted analysis with specific bull/base/bear case projections
-
-**Peer Benchmarking** - Relative valuation and performance comparison within sector cohorts
-
-**Risk Assessment** - Comprehensive identification of sector, operational, and financial risks
-
-**Investment Synthesis** - Clear actionable recommendations with entry/exit strategies and position sizing guidance
+- **Data Aggregation** - Real-time collection from multiple financial data sources and company filings
+- **Multi-Pillar Scoring** - Systematic evaluation across 8 key financial and qualitative dimensions
+- **Scenario Modeling** - Probability-weighted analysis with specific bull/base/bear case projections
+- **Peer Benchmarking** - Relative valuation and performance comparison within sector cohorts
+- **Risk Assessment** - Comprehensive identification of sector, operational, and financial risks
+- **Investment Synthesis** - Clear actionable recommendations with entry/exit strategies and position sizing guidance
 
 ## Get Started
 
