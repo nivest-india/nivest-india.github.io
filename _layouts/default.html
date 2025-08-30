@@ -42,6 +42,23 @@
             align-items: center;
         }
         
+        .site-brand {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .site-logo {
+            height: 50px;
+            width: auto;
+            border-radius: 8px;
+            transition: transform 0.2s ease;
+        }
+        
+        .site-logo:hover {
+            transform: scale(1.05);
+        }
+        
         .site-title {
             font-size: 1.8em;
             font-weight: 300;
@@ -76,14 +93,36 @@
             max-width: 1200px;
             margin: 0 auto;
         }
+        
+        @media (max-width: 768px) {
+            .site-brand {
+                gap: 10px;
+            }
+            
+            .site-logo {
+                height: 40px;
+            }
+            
+            .site-title {
+                font-size: 1.4em;
+            }
+            
+            .site-header .wrapper {
+                padding: 0 15px;
+            }
+        }
     </style>
 </head>
 <body>
     <header class="site-header" role="banner">
         <div class="wrapper">
-            <a class="site-title" rel="author" href="/">{{ site.title }}</a>
+            <div class="site-brand">
+                <img src="{{ '/assets/images/nano-banana-no-bg-2025-08-30T09-08-19.jpg' | relative_url }}" alt="Nivest India Logo" class="site-logo">
+                <a class="site-title" rel="author" href="/">{{ site.title }}</a>
+            </div>
             <nav class="site-nav">
                 <a class="page-link" href="/">Home</a>
+                <a class="page-link" href="/reports/">Reports</a>
             </nav>
         </div>
     </header>

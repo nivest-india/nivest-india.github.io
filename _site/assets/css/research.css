@@ -71,6 +71,11 @@
     color: #721c24;
 }
 
+.recommendation.avoid {
+    background: #f8d7da;
+    color: #721c24;
+}
+
 .date {
     background: #e8f5e8;
     color: #2e7d32;

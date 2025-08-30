@@ -23,7 +23,7 @@ description: "Comprehensive stock research reports and investment analysis for I
 - **Technical Analysis & Market Sentiment** - Price trends and market positioning
 - **Shareholding Pattern Analysis** - Institutional participation and investor quality
 
-**Investment Recommendations**: Clear BUY/HOLD/SELL ratings with probability-weighted target prices derived from comprehensive scenario analysis (Bull/Base/Bear cases)
+**Investment Recommendations**: Clear BUY/HOLD/SELL/AVOID ratings with probability-weighted target prices derived from comprehensive scenario analysis (Bull/Base/Bear cases)
 
 **Sector Coverage**: Analysis across all major Indian market sectors with real-time data integration
 
@@ -43,14 +43,14 @@ Our AI system follows a structured, data-driven approach:
 
 **Investment Synthesis** - Clear actionable recommendations with entry/exit strategies and position sizing guidance
 
-## Stock Research Reports
+## Get Started
 
-{% for post in site.posts %}
-<div class="research-summary">
-  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-  <p><strong>Ticker:</strong> {{ post.ticker }} | <strong>Sector:</strong> {{ post.sector }}</p>
-  <p><strong>Current Price:</strong> {{ post.current_price }} | <strong>Market Cap:</strong> {{ post.market_cap }}</p>
-  <p><strong>Recommendation:</strong> <span class="recommendation {{ post.recommendation | downcase }}">{{ post.recommendation }}</span> | <strong>Target:</strong> {{ post.target_price }}</p>
-  <p><em>Published: {{ post.date | date: "%B %d, %Y" }}</em></p>
+Ready to explore our comprehensive stock research reports? 
+
+<div class="cta-section">
+  <a href="/reports/" class="cta-button">Browse All Research Reports</a>
 </div>
-{% endfor %}
+
+---
+
+*Disclaimer: The information provided on this website is for educational and informational purposes only. It should not be considered as financial advice or a recommendation to buy or sell any securities. Always consult with a qualified financial advisor before making investment decisions.*
