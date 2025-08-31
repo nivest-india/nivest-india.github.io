@@ -29,7 +29,7 @@ permalink: /reports/
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
   <p><strong>Ticker:</strong> {{ post.ticker }} | <strong>Sector:</strong> {{ post.sector }}</p>
   <p><strong>Current Price:</strong> {{ post.current_price }} | <strong>Market Cap:</strong> {{ post.market_cap }}</p>
-  <p><strong>Recommendation:</strong> <span class="recommendation {{ post.recommendation | downcase }}">{{ post.recommendation }}</span> | <strong>Target:</strong> {{ post.target_price }}</p>
+  <p><strong>Recommendation:</strong> <span class="recommendation {{ post.recommendation | downcase }}">{{ post.recommendation }}</span> | <strong>Strategy:</strong> {{ post.strategy_type }} | <strong>Target:</strong> {{ post.target_price }}</p>
   <p><em>Published: {{ post.date | date: "%B %d, %Y" }}</em></p>
 </div>
 {% endfor %}
